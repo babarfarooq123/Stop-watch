@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stop Watch</title>
+</head>
+<body>
+    <h1 id="hd">Stop Watch</h1>
+    <div class="m">
+        <div class="main">
+            <div class="d0">
+                <div>
+                    <h3 class="ct" id="d1">00</h3>
+                </div>
+                <div>
+                    <h3 class="ct" id="d2">00</h3>
+                </div>
+                <div>
+                    <h3 class="ct" id="d3">00</h3>
+                </div>
+            </div>
+            <div class="d0">
+                <div>
+                    <button class="bt" id="st" onClick="start()">Start</button>
+                </div>
+                <div>
+                    <button class="bt" onClick="pause()">Pause</button>
+                </div>
+                <div>
+                    <button class="bt" onClick="restart()">Restart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    text-align: center
+}
+
+#hd{
+    color: brown;
+    font-size: 50px;
+}
+
+.d0{
+    display: flex !important;
+    font-size: xx-large;
+}
+
+.bt{
+    background-color: brown;
+    color: white;
+    border-radius: 800px;
+    font-size: large;
+    margin: 0 8px 0 8px;
+    border: 2px white solid;
+}
+
+.ct{
+    margin: 0 20px 0 20px;
+    color: white;
+}
+
+.m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    margin: 120px auto;
+    padding: 50px;
+    background-color: tomato;
+    border-radius: 50%;
+}
